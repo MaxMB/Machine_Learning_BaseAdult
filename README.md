@@ -2,8 +2,8 @@
 Machine learning classification techniques for the BaseAdult - Codes in R
 
 Get the dataset Adult:
-i) UCI Repository https://archive.ics.uci.edu/ml/datasets/adult
-ii) Kaggle https://www.kaggle.com/datasets/sagnikpatra/uci-adult-census-data-dataset
+1) UCI Repository https://archive.ics.uci.edu/ml/datasets/adult
+2) Kaggle https://www.kaggle.com/datasets/sagnikpatra/uci-adult-census-data-dataset
 
 ML techniques:
 1) boosted trees
