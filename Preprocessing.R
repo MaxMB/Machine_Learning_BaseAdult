@@ -164,32 +164,3 @@ write.table(Train_Data_PP, file="adult_PP.data", append=FALSE, sep=" ", col.name
 write.table(Test_Data_PP, file="adult_PP.test", append=FALSE, sep=" ", col.names=TRUE)
 
 print("Operations completed")
-
-
-
-
-# MV_train <- 0
-# for (i in 1:nrow(Train_Data)) {
-#   for (j in 1:ncol(Train_Data)) {
-#     if (Train_Data[i,j] == "?") {
-#       MV_train <- MV_train + 1
-#       i <- i + 1
-#       j <- 0
-#     }
-#   }
-# }
-# 
-# MV_train # 2531 --> 2531 / 32561 = 7.773103 %
-
-# MV_test <- 0
-# for (i in 1:nrow(Test_Data)) {
-#   for (j in 1:ncol(Test_Data)) {
-#     if (Test_Data[i,j] == "?") {
-#       MV_test <- MV_test + 1
-#       i <- i + 1
-#       j <- 0
-#     }
-#   }
-# }
-# 
-# MV_test # 1293 --> 1293 / 16281 = 7.941773 %
